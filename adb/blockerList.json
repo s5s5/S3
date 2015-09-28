@@ -1,10 +1,149 @@
 [
   {
     "action": {
-      "type": "block"
+      "selector": ".wgt-ads, .wapAd, .top-banner-ad-wrap, .text-advertise, .sam_iebrowser_banner, .rightAd-skin, .pageLeftFixedAD, .news_ad, .nav_ads, .l-header-ad, .intro-adv, .gg-content, .ecomad-banner-loading, .ec_wise_ad, .ec_sma_im, .ec_im_container, .ec_adv, .adTopImg, #video_push_box, #search_bottomad, #search-union-ad, #results > div[class]:not(.result):not(.sp-rslt-bar), #left-promotion, #j-ad-side, #j-ad-first, #index_right_top, #index_right_float, #index_banner_top, #gamePromo, #ec_im_container, #couplet-right, #couplet-left, #container, #bdyx_float_rb, #asideRight, #asideLeft, #ad_xbox_3, #ad_xbox_2, #ad_xbox_1, #adMainTopRight, #adMainTopLeft, #adCard, #results.content-main > .eLeft, .EC_newppim, #ec_im_container",
+      "type": "css-display-none"
     },
     "trigger": {
-      "url-filter": "webkit.org/images/icon-gold.png"
+      "url-filter": "\\.baidu\\.com"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "cbjs\\.baidu\\.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "\\.baidustatic\\.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "cpro\\.baidu\\.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "pos\\.baidu\\.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "imageplus\\.baidu\\.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "qqtn\\.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "action": {
+      "selector": ".ads-ad, ._Ak",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": "www\\.google\\.com"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "show_ad\\.js"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "adsbygoogle\\.js"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "async-ads\\.js"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "conversion_async\\.js"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "\\.alimama\\.c"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "strip\\.taobaocdn\\.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "dxpmedia\\.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "tanx\\.com"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "action": {
+      "selector": ".e_idea_list, .e-buss, #e_idea_pp",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": "\\.haosou\\.com"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "moogos\\.com"
+    },
+    "action": {
+      "type": "block"
     }
   }
 ]
