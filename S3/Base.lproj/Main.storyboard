@@ -16,27 +16,196 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="使用指引" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="drj-Qg-bY4">
-                                <rect key="frame" x="244" y="58" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="感谢：adb" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="51P-QX-CKM">
-                                <rect key="frame" x="244" y="198" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="反馈有广告的网址" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5i2-be-cJj">
-                                <rect key="frame" x="244" y="305" width="133" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="edF-DC-9pl">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aym-3J-jW2">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="800"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0hv-ox-7Kk">
+                                                <rect key="frame" x="148" y="20" width="351" height="222"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="杀手指引" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dLt-17-0Vv">
+                                                        <rect key="frame" x="120" y="20" width="68" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="k1" translatesAutoresizingMaskIntoConstraints="NO" id="8qD-LU-mbe">
+                                                        <rect key="frame" x="200" y="20" width="131" height="88"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="headTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RR7-6e-1YG">
+                                                        <rect key="frame" x="65" y="48" width="147" height="33"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="设置 - Safari - 内容拦截器 - 广告杀手(S3) - 启用">
+                                                                <attributes>
+                                                                    <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                    <font key="NSFont" size="11" name="STHeitiSC-Light"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="k2" translatesAutoresizingMaskIntoConstraints="NO" id="g0C-rc-H2j">
+                                                        <rect key="frame" x="20" y="48" width="269" height="154"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(点击打开设置)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBE-6s-EG4">
+                                                        <rect key="frame" x="170" y="63" width="42" height="19"/>
+                                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="6"/>
+                                                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKG-vh-dcl">
+                                                        <rect key="frame" x="20" y="48" width="206" height="42"/>
+                                                        <connections>
+                                                            <action selector="openSetting:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S3u-mX-po9"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="222" id="beP-cn-aVs"/>
+                                                    <constraint firstAttribute="width" constant="351" id="dEn-Uq-7wW"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nRi-uF-EOs">
+                                                <rect key="frame" x="139" y="246" width="235" height="148"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="无奖反馈热线" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8LW-U2-f8b">
+                                                        <rect key="frame" x="111" y="20" width="102" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="k3" translatesAutoresizingMaskIntoConstraints="NO" id="WEh-pN-Atm">
+                                                        <rect key="frame" x="20" y="33" width="83" height="95"/>
+                                                    </imageView>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5lk-Lj-KfQ">
+                                                        <rect key="frame" x="108" y="64" width="108" height="34"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                        <state key="normal" title="举报广告网址"/>
+                                                        <connections>
+                                                            <action selector="postComment:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9ji-rB-gK4"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="235" id="dNv-pH-kvg"/>
+                                                    <constraint firstAttribute="height" constant="148" id="v4h-1t-7GF"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HHU-gb-TeV">
+                                                <rect key="frame" x="218" y="398" width="281" height="162"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="k4" translatesAutoresizingMaskIntoConstraints="NO" id="6pP-gO-zmc">
+                                                        <rect key="frame" x="158" y="34" width="103" height="108"/>
+                                                    </imageView>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QJS-vz-0hh">
+                                                        <rect key="frame" x="53" y="71" width="54" height="34"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                        <state key="normal" title="点个赞"/>
+                                                        <connections>
+                                                            <action selector="getGood:" destination="BYZ-38-t0r" eventType="touchUpInside" id="svQ-SL-xg7"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="给杀手一个好评" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NBh-Hc-vg2">
+                                                        <rect key="frame" x="20" y="20" width="119" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="162" id="i0B-q5-viM"/>
+                                                    <constraint firstAttribute="width" constant="281" id="yU2-de-Nkl"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="idg-GJ-6w9">
+                                                <rect key="frame" x="126" y="564" width="349" height="96"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jBk-xg-HiH">
+                                                        <rect key="frame" x="20" y="55" width="309" height="20"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="马哥、seedling、广告网址举报小能手…">
+                                                                <attributes>
+                                                                    <color key="NSColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                                    <font key="NSFont" size="14" name="STHeitiSC-Light"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="感谢以下卧底人员" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="haR-sX-xQa">
+                                                        <rect key="frame" x="106" y="20" width="136" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="96" id="9er-3J-eZH"/>
+                                                    <constraint firstAttribute="width" constant="349" id="t2r-0v-dAq"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="idg-GJ-6w9" firstAttribute="centerX" secondItem="Aym-3J-jW2" secondAttribute="centerX" id="5R4-Gr-gnS"/>
+                                            <constraint firstItem="nRi-uF-EOs" firstAttribute="centerX" secondItem="Aym-3J-jW2" secondAttribute="centerX" constant="-43.5" id="LBI-2l-IMs"/>
+                                            <constraint firstItem="HHU-gb-TeV" firstAttribute="top" secondItem="nRi-uF-EOs" secondAttribute="bottom" constant="4" id="O3L-Xi-UDs"/>
+                                            <constraint firstItem="idg-GJ-6w9" firstAttribute="top" secondItem="HHU-gb-TeV" secondAttribute="bottom" constant="4" id="ftu-bs-oB0"/>
+                                            <constraint firstAttribute="height" constant="800" id="gcg-8H-R5S"/>
+                                            <constraint firstItem="nRi-uF-EOs" firstAttribute="top" secondItem="0hv-ox-7Kk" secondAttribute="bottom" constant="4" id="iYc-Wp-RlK"/>
+                                            <constraint firstItem="0hv-ox-7Kk" firstAttribute="centerX" secondItem="Aym-3J-jW2" secondAttribute="centerX" constant="23.5" id="jrl-vd-Br6"/>
+                                            <constraint firstItem="nRi-uF-EOs" firstAttribute="top" secondItem="0hv-ox-7Kk" secondAttribute="bottom" constant="4" id="kCc-dm-NLV"/>
+                                            <constraint firstItem="HHU-gb-TeV" firstAttribute="centerX" secondItem="Aym-3J-jW2" secondAttribute="centerX" constant="58.5" id="qBr-Us-QNQ"/>
+                                            <constraint firstItem="0hv-ox-7Kk" firstAttribute="top" secondItem="Aym-3J-jW2" secondAttribute="top" constant="5" id="tp0-zz-Q4y"/>
+                                            <constraint firstItem="0hv-ox-7Kk" firstAttribute="top" secondItem="Aym-3J-jW2" secondAttribute="top" constant="20" id="zk0-RX-G1n"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="tp0-zz-Q4y"/>
+                                                <exclude reference="kCc-dm-NLV"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Aym-3J-jW2" firstAttribute="leading" secondItem="edF-DC-9pl" secondAttribute="leading" id="5xr-hw-yS4"/>
+                                    <constraint firstAttribute="trailing" secondItem="Aym-3J-jW2" secondAttribute="trailing" id="AbL-RY-vXF"/>
+                                    <constraint firstItem="Aym-3J-jW2" firstAttribute="centerX" secondItem="edF-DC-9pl" secondAttribute="centerX" id="LUu-5z-Mck"/>
+                                    <constraint firstAttribute="bottom" secondItem="Aym-3J-jW2" secondAttribute="bottom" id="QfZ-rm-HwC"/>
+                                    <constraint firstAttribute="trailing" secondItem="Aym-3J-jW2" secondAttribute="trailing" id="XPu-Yq-cXz"/>
+                                    <constraint firstItem="Aym-3J-jW2" firstAttribute="top" secondItem="edF-DC-9pl" secondAttribute="top" id="i6p-sf-oep"/>
+                                    <constraint firstAttribute="height" constant="600" id="mIB-Wa-doj"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="mIB-Wa-doj"/>
+                                    </mask>
+                                </variation>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="edF-DC-9pl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4P8-UU-i7w"/>
+                            <constraint firstItem="edF-DC-9pl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="RTA-FW-p9t"/>
+                            <constraint firstAttribute="trailing" secondItem="edF-DC-9pl" secondAttribute="trailing" id="gnh-yV-rVQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="edF-DC-9pl" secondAttribute="bottom" id="nE0-Qa-ktb"/>
+                            <constraint firstItem="edF-DC-9pl" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="zNe-PX-qm1"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="322" y="330"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="k1" width="263" height="177"/>
+        <image name="k2" width="539" height="308"/>
+        <image name="k3" width="166" height="191"/>
+        <image name="k4" width="206" height="216"/>
+    </resources>
 </document>

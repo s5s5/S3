@@ -11,7 +11,6 @@
 		14C0165E1BAFD06C00BEFBA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C0165D1BAFD06C00BEFBA7 /* ViewController.swift */; };
 		14C016611BAFD06C00BEFBA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C0165F1BAFD06C00BEFBA7 /* Main.storyboard */; };
 		14C016631BAFD06C00BEFBA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C016621BAFD06C00BEFBA7 /* Assets.xcassets */; };
-		14C016661BAFD06C00BEFBA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C016641BAFD06C00BEFBA7 /* LaunchScreen.storyboard */; };
 		14C016711BAFD06D00BEFBA7 /* S3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C016701BAFD06D00BEFBA7 /* S3Tests.swift */; };
 		14C0167C1BAFD06D00BEFBA7 /* S3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C0167B1BAFD06D00BEFBA7 /* S3UITests.swift */; };
 		14C016901BAFD14400BEFBA7 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 14C0168F1BAFD14400BEFBA7 /* blockerList.json */; };
@@ -63,7 +62,6 @@
 		14C0165D1BAFD06C00BEFBA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		14C016601BAFD06C00BEFBA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14C016621BAFD06C00BEFBA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		14C016651BAFD06C00BEFBA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14C016671BAFD06C00BEFBA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14C0166C1BAFD06D00BEFBA7 /* S3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = S3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C016701BAFD06D00BEFBA7 /* S3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S3Tests.swift; sourceTree = "<group>"; };
@@ -138,7 +136,6 @@
 				14C0165D1BAFD06C00BEFBA7 /* ViewController.swift */,
 				14C0165F1BAFD06C00BEFBA7 /* Main.storyboard */,
 				14C016621BAFD06C00BEFBA7 /* Assets.xcassets */,
-				14C016641BAFD06C00BEFBA7 /* LaunchScreen.storyboard */,
 				14C016671BAFD06C00BEFBA7 /* Info.plist */,
 			);
 			path = S3;
@@ -298,7 +295,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14C016661BAFD06C00BEFBA7 /* LaunchScreen.storyboard in Resources */,
 				14C016631BAFD06C00BEFBA7 /* Assets.xcassets in Resources */,
 				14C016611BAFD06C00BEFBA7 /* Main.storyboard in Resources */,
 			);
@@ -389,14 +385,6 @@
 				14C016601BAFD06C00BEFBA7 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		14C016641BAFD06C00BEFBA7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				14C016651BAFD06C00BEFBA7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -600,6 +588,7 @@
 				14C016821BAFD06D00BEFBA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14C016831BAFD06D00BEFBA7 /* Build configuration list for PBXNativeTarget "S3Tests" */ = {
 			isa = XCConfigurationList;
@@ -608,6 +597,7 @@
 				14C016851BAFD06D00BEFBA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14C016861BAFD06D00BEFBA7 /* Build configuration list for PBXNativeTarget "S3UITests" */ = {
 			isa = XCConfigurationList;
@@ -616,6 +606,7 @@
 				14C016881BAFD06D00BEFBA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14C016971BAFD14400BEFBA7 /* Build configuration list for PBXNativeTarget "adb" */ = {
 			isa = XCConfigurationList;
@@ -624,6 +615,7 @@
 				14C016991BAFD14400BEFBA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

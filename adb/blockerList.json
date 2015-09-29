@@ -67,7 +67,7 @@
   },
   {
     "trigger": {
-      "url-filter": "show_ad\\.js"
+      "url-filter": "show_ad"
     },
     "action": {
       "type": "block"
