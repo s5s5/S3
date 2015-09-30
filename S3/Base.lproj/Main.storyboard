@@ -26,20 +26,20 @@
                                                 <rect key="frame" x="148" y="20" width="351" height="222"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="杀手指引" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dLt-17-0Vv">
-                                                        <rect key="frame" x="120" y="20" width="68" height="20.5"/>
+                                                        <rect key="frame" x="120" y="8" width="68" height="20.5"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="k1" translatesAutoresizingMaskIntoConstraints="NO" id="8qD-LU-mbe">
-                                                        <rect key="frame" x="200" y="20" width="131" height="88"/>
+                                                        <rect key="frame" x="200" y="15" width="131" height="88"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="headTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RR7-6e-1YG">
                                                         <rect key="frame" x="65" y="48" width="147" height="33"/>
                                                         <attributedString key="attributedText">
                                                             <fragment content="设置 - Safari - 内容拦截器 - 广告杀手(S3) - 启用">
                                                                 <attributes>
-                                                                    <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <font key="NSFont" size="11" name="STHeitiSC-Light"/>
                                                                     <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                                                 </attributes>
@@ -50,14 +50,14 @@
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="k2" translatesAutoresizingMaskIntoConstraints="NO" id="g0C-rc-H2j">
                                                         <rect key="frame" x="20" y="48" width="269" height="154"/>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(点击打开设置)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBE-6s-EG4">
-                                                        <rect key="frame" x="170" y="63" width="42" height="19"/>
-                                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="6"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(打开设置)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBE-6s-EG4">
+                                                        <rect key="frame" x="133" y="82" width="42" height="19"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="8"/>
                                                         <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKG-vh-dcl">
-                                                        <rect key="frame" x="20" y="48" width="206" height="42"/>
+                                                        <rect key="frame" x="20" y="48" width="206" height="33"/>
                                                         <connections>
                                                             <action selector="openSetting:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S3u-mX-po9"/>
                                                         </connections>
@@ -74,7 +74,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="无奖反馈热线" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8LW-U2-f8b">
                                                         <rect key="frame" x="111" y="20" width="102" height="20.5"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="k3" translatesAutoresizingMaskIntoConstraints="NO" id="WEh-pN-Atm">
@@ -111,7 +111,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="给杀手一个好评" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NBh-Hc-vg2">
                                                         <rect key="frame" x="20" y="20" width="119" height="20.5"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -139,7 +139,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="感谢以下卧底人员" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="haR-sX-xQa">
                                                         <rect key="frame" x="106" y="20" width="136" height="20.5"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -203,9 +203,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="k1" width="263" height="177"/>
-        <image name="k2" width="539" height="308"/>
-        <image name="k3" width="166" height="191"/>
-        <image name="k4" width="206" height="216"/>
+        <image name="k1" width="131" height="88"/>
+        <image name="k2" width="269" height="154"/>
+        <image name="k3" width="83" height="95"/>
+        <image name="k4" width="103" height="108"/>
     </resources>
 </document>
