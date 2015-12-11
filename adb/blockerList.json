@@ -175,14 +175,6 @@
   },
   {
   "trigger": {
-  "url-filter": "prod=ad"
-  },
-  "action": {
-  "type": "block"
-  }
-  },
-  {
-  "trigger": {
   "url-filter": "jusha\\.com"
   },
   "action": {
@@ -239,6 +231,14 @@
   },
   "trigger": {
   "url-filter": "44dzdz\\.com"
+  }
+  },
+  {
+  "trigger": {
+  "url-filter": "vda\\.m\\.youzu\\.com"
+  },
+  "action": {
+  "type": "block"
   }
   }
   ]
